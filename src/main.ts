@@ -5,7 +5,7 @@ const route = {
     steamid: '&steamid=',
 }
 
-export default class Connection {  
+export class Connection {  
     apiKey: string;  
     constructor(apiKey: string) {
         this.apiKey = apiKey;
@@ -28,7 +28,3 @@ export default class Connection {
         return (await request).data.assets;
     }
 }
-
-const csgo = new Connection('D9A008D5DF53507C69A5D011E225A81D');
-
-csgo.getStats('76561199160525458').then(res => console.log(res))

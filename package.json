@@ -2,12 +2,12 @@
   "name": "csgo-data",
   "version": "1.0.0",
   "description": "A minimalist and lightweight module to get data from CS:GO players.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["csgo", "steam", "api", "id", "web"],
+  "author": "cctwaterson",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.2.1",
